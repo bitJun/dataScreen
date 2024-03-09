@@ -1,0 +1,198 @@
+#SiderBar {
+  .bar {
+    width: 2.3em;
+    max-height: 55em;
+    padding-top: 2em;
+    box-sizing: border-box;
+    background: rgba(157, 235, 235, 0.2);
+    backdrop-filter: blur(8px);
+    opacity: 1;
+  }
+
+  .card {
+    position: absolute;
+    top: 5em;
+    left: 3em;
+    bottom: 0;
+    width: 20em;
+    text-align: left;
+    padding: 0 0.5em;
+    box-sizing: border-box;
+    opacity: 1;
+    border-radius: 0px 0px, 8px, 8px;
+
+
+    .card1 {
+      width: 18em;
+      // height: 23em;
+      text-align: left;
+      padding: 0.37em 0.5em;
+      border-bottom-left-radius: 0.5em;
+      border-bottom-right-radius: 0.5em;
+      box-sizing: border-box;
+      border: 1px solid rgba(216, 229, 229, 1);
+      opacity: 1;
+      border-radius: 0px 0px, 8px, 8px;
+      background: rgba(255, 255, 255, 0.48);
+
+      backdrop-filter: blur(8px);
+
+      .seq {
+        width: 16.8em;
+        margin: 0.5em 0;
+        border: 0.5px solid rgba(212, 219, 226, 1);
+
+        // backdrop-filter: blur(2em);
+      }
+
+      .title {
+        margin-left: 0.5em;
+        font-size: 0.8em;
+        font-weight: 700;
+        color: rgba(66, 66, 66, 1);
+      }
+
+      .planBtn {
+        width: 4.75em;
+        height: 1.6em;
+        opacity: 1;
+        background: rgba(246, 255, 255, 1);
+        border: 1px solid rgba(216, 229, 229, 1);
+        border-radius: 0.3em;
+        font-size: 0.87em;
+        color: rgba(112, 112, 112, 1);
+      }
+
+      .planBtn2 {
+        width: 5.6em;
+        height: 1.6em;
+        margin-left: 0.25em;
+        opacity: 1;
+        background: rgba(157, 235, 235, 1);
+        border-radius: 0.3em;
+        border: 1px solid rgba(29, 170, 170, 1);
+        font-size: 0.87em;
+        color: rgba(29, 170, 170, 1);
+      }
+
+      .container {
+        display: flex;
+        width: 16.8em;
+        height: 2em;
+        margin: 0.5em 0;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2em;
+        box-sizing: border-box;
+        opacity: 1;
+        border-radius: 5px;
+        background: linear-gradient(180deg, rgba(235, 255, 255, 1) 0%, rgba(245, 251, 251, 1) 100%);
+        border: 1px solid rgba(255, 255, 255, 1);
+        box-shadow: 0px 3px 3px rgba(146, 146, 146, 0.3);
+      }
+
+      .taskCard {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 8.2em;
+        height: 2em;
+        padding: 0 0.56em;
+        box-sizing: border-box;
+        opacity: 1;
+        border-radius: 0.3em;
+        background: linear-gradient(180deg, rgba(235, 255, 255, 1) 0%, rgba(245, 251, 251, 1) 100%);
+        border: 1px solid rgba(255, 255, 255, 1);
+        box-shadow: 0px 3px 3px rgba(146, 146, 146, 0.3);
+
+        .row {
+          display: flex;
+          align-items: center;
+        }
+
+        .text {
+          margin-left: 0.8em;
+          font-size: 0.75em;
+          color: rgba(66, 66, 66, 1);
+        }
+
+        .num {
+          font-size: 0.87em;
+          font-weight: 700;
+          color: rgba(47, 181, 181, 1);
+        }
+
+        .unit {
+          font-size: 0.625em;
+          color: rgba(66, 66, 66, 1);
+        }
+      }
+    }
+    .card2 {
+      width: 18em;
+      margin-top: 1em;
+      text-align: left;
+      border-bottom-left-radius: 0.5em;
+      border-bottom-right-radius: 0.5em;
+      padding: 0.37em 0.5em;
+      box-sizing: border-box;
+      opacity: 1;
+      border: 1px solid rgba(216, 229, 229, 1);
+      border-radius: 0px 0px, 8px, 8px;
+      background: rgba(255, 255, 255, 0.48); 
+      backdrop-filter: blur(8px);
+
+      .title {
+          margin-left: 0.5em;
+          font-size: 0.8em;
+          font-weight: 700;
+          color: rgba(66, 66, 66, 1);
+        }
+
+        .box {
+          display: flex;
+          align-items: center;
+          margin-top: 0.56em;
+          justify-content: space-between;
+          padding-left: 0.56em;
+          padding-right: 2.6em;
+          border-radius: 5px;
+          box-sizing: border-box;
+          background: linear-gradient(180deg, rgba(235, 255, 255, 1) 0%, rgba(245, 251, 251, 1) 100%);
+          border: 1px solid rgba(255, 255, 255, 1);
+          box-shadow: 0px 3px 3px rgba(146, 146, 146, 0.3);
+        }
+
+    }
+
+    .card3 {
+      width: 288px;
+      height: 11em;
+      margin-top: 1em;
+      padding: 0.37em 0.5em;
+      border-bottom-left-radius: 0.5em;
+      border-bottom-right-radius: 0.5em;
+      box-sizing: border-box;
+      opacity: 1;
+      border: 1px solid rgba(216, 229, 229, 1);
+      border-radius: 0px 0px, 8px, 8px;
+      background: rgba(255, 255, 255, 0.48);
+      backdrop-filter: blur(8px);
+
+      .seq {
+          width: 16.8em;
+          margin: 0.5em 0;
+          border: 0.5px solid rgba(212, 219, 226, 1);
+          // backdrop-filter: blur(2em);
+      }
+
+      .title {
+          margin-left: 0.5em;
+          font-size: 0.8em;
+          font-weight: 700;
+          color: rgba(66, 66, 66, 1);
+        }
+    }
+
+  }
+}
